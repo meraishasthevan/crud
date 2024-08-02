@@ -1,0 +1,146 @@
+
+
+/* CRUD Section */
+.crud {
+  padding: 20px;
+  background-image: linear-gradient(to right, rgba(255, 0, 0, 0), rgba(150, 0, 0, 1));
+  min-height: 100vh;
+}
+.crud h1{
+    text-transform: uppercase;
+    text-align: center;
+    color:black;
+    
+}
+
+/* Card Container */
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+/* Card */
+.card {
+  background-color:linear-gradient(to right, rgba(255, 0, 0, 0), rgba(150, 0, 0, 1)); 
+  border-radius: 8px;
+  border:1px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 300px;
+  margin-top: 20px;
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.card-item {
+  margin-bottom: 10px;
+}
+
+.card-actions {
+  display: flex;
+  gap: 10px;
+  justify-content:center;
+}
+
+/* Buttons */
+button {
+  background-color: brown;
+  border: none;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+  transform: scale(1.05);
+}
+
+/* Inputs */
+input {
+  padding: 5px;
+  border: 1px solid #ffccd5;
+  border-radius: 4px;
+  width: calc(100% - 12px);
+  box-sizing: border-box;
+}
+
+::placeholder {
+  color: brown;
+}
+
+/* Add List Form */
+.addlist input {
+  padding: 10px;
+  border: 1px solid brown;
+  border-radius: 4px;
+  width:26%;
+  box-sizing: border-box;
+  margin-right: 20px;
+
+}
+.addlist .username{
+  margin-left: 125px;
+}
+
+
+
+.addlist button {
+  width: 100px;
+  margin-top: 10px;
+}
+
+
+/* login-form */
+*{
+  padding:0;
+  margin:0;
+
+}
+.back-image{
+  background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("images/rose.webp");
+  background-size: cover;
+  background-position: center;
+  height:100vh;
+
+}
+.login-form{
+  width:30%;
+  margin:auto;
+}
+.login-form form{
+  margin-top: 35px;
+  width:100%;
+  border:3px solid white;
+  padding:20px;
+  color:white;
+}
+.login-form h3{
+  color:rgb(21, 178, 240);
+}
+.back-image h1{
+  padding-left:30px;
+  padding-top:50px;
+  text-align:center;
+  color:white;
+  
+}
+.login-form h3, .login-form p{
+  text-align: center;
+}
+.login-form button{
+
+  padding:10px  50px;
+  background-color: rgb(20, 168, 226);
+  border:1px solid rgb(18, 169, 230);
+  color:white;
+  margin-left: 120px;
+}
